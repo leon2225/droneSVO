@@ -1,0 +1,75 @@
+cameras:
+- T_B_C:
+    cols: 4
+    data: [0.012769782107088552, -0.0004905337104045479, 0.9999183426868486, 0.031182076314760505,
+      -0.9999148810511602, -0.0026829198630606674, 0.0127684217290351, 0.02285355095711585,
+      0.0026764374417464548, -0.9999962806519258, -0.0005247522587527915, 0.0018485056668151975,
+      0.0, 0.0, 0.0, 1.0]
+    rows: 4
+  calib_date: 0
+  camera:
+    distortion:
+      parameters:
+        cols: 1
+        data: [0.26177911605529325, 0.22034250865567886, 0.17011345070513295, -0.1637689609030202]
+        rows: 4
+      type: equidistant
+    image_height: 720
+    image_width: 1280
+    intrinsics:
+      cols: 1
+      data: [524.7072686917155, 524.9097866601845, 636.3950641020563, 360.7190936052263]
+      rows: 4
+    label: cam0
+    line-delay-nanoseconds: 0
+    type: pinhole
+  description: /zed2/zed_node/left/image_rect_gray
+  serial_no: 0
+- T_B_C:
+    cols: 4
+    data: [0.010045117025839698, -0.0008117133266676585, 0.999949217083254, 0.03321263320757193,
+      -0.999945682529998, -0.0027881520290522176, 0.010042818223940026, -0.0999875432649065,
+      0.002779858549170209, -0.9999957836559804, -0.0008396765498710756, 0.0021296758151312196,
+      0.0, 0.0, 0.0, 1.0]
+    rows: 4
+  calib_date: 0
+  camera:
+    distortion:
+      parameters:
+        cols: 1
+        data: [0.2728535611297781, 0.15462804076698272, 0.3074117216524832, -0.25700730213717754]
+        rows: 4
+      type: equidistant
+    image_height: 720
+    image_width: 1280
+    intrinsics:
+      cols: 1
+      data: [523.6126035475885, 523.6294003137265, 637.5089963306787, 361.00444636127025]
+      rows: 4
+    label: cam1
+    line-delay-nanoseconds: 0
+    type: pinhole
+  description: /zed2/zed_node/right/image_rect_gray
+  serial_no: 0
+label: camchain-imucam-paperA4_rect.yaml
+
+imu_params:
+  acc_max: 176.0
+  delay_imu_cam: 0.0
+  g: 9.8082
+  imu_rate: 400
+  max_imu_delta_t: 0.01
+  omega_max: 7.8
+  sigma_acc_bias_c: 0.0002508999896235764
+  sigma_acc_c: 0.0015999999595806003
+  sigma_integration: 0.0
+  sigma_omega_bias_c: 0.0019474000437185168
+  sigma_omega_c: 0.007000000216066837
+
+imu_initialization:
+  acc_bias: [0.0, 0.0, 0.0]
+  acc_bias_sigma: 0.0015999999595806003
+  omega_bias: [0.0, 0.0, 0.0]
+  omega_bias_sigma: 0.007000000216066837
+  velocity: [0.0, 0.0, 0.0]
+  velocity_sigma: 1.0
