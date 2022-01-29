@@ -73,7 +73,7 @@ Visualization Manager:
       Marker Topic: /svo/points
       Name: /svo/points
       Namespaces:
-        pts: true
+        pts: false
         seeds: false
         trajectory: true
       Queue Size: 100
